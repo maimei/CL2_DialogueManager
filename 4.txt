@@ -1,0 +1,34 @@
+{
+  "tokens": [
+    "Okay",
+    ".",
+    "That",
+    "'s",
+    "done",
+    "."
+  ],
+  "frames": [
+    {
+      "target": {
+        "start": 4,
+        "end": 5,
+        "name": "Intentionally_act",
+        "text": "done"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 0,
+              "end": 2,
+              "name": "Act",
+              "text": "Okay ."
+            }
+          ],
+          "score": 67.25161472498472,
+          "rank": 0
+        }
+      ]
+    }
+  ]
+}

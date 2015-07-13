@@ -1,0 +1,121 @@
+{
+  "tokens": [
+    "What",
+    "ingredients",
+    "do",
+    "I",
+    "need",
+    "for",
+    "pumpkin",
+    "soup",
+    "?"
+  ],
+  "frames": [
+    {
+      "target": {
+        "start": 1,
+        "end": 2,
+        "name": "Ingredients",
+        "text": "ingredients"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 1,
+              "end": 2,
+              "name": "Material",
+              "text": "ingredients"
+            }
+          ],
+          "score": 29.296897510284005,
+          "rank": 0
+        }
+      ]
+    },
+    {
+      "target": {
+        "start": 2,
+        "end": 3,
+        "name": "Intentionally_act",
+        "text": "do"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 3,
+              "end": 4,
+              "name": "Act",
+              "text": "I"
+            },
+            {
+              "start": 0,
+              "end": 2,
+              "name": "Agent",
+              "text": "What ingredients"
+            }
+          ],
+          "score": 64.81088859049271,
+          "rank": 0
+        }
+      ]
+    },
+    {
+      "target": {
+        "start": 4,
+        "end": 5,
+        "name": "Needing",
+        "text": "need"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 5,
+              "end": 8,
+              "name": "Requirement",
+              "text": "for pumpkin soup"
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "name": "Cognizer",
+              "text": "I"
+            }
+          ],
+          "score": 41.494219548588966,
+          "rank": 0
+        }
+      ]
+    },
+    {
+      "target": {
+        "start": 7,
+        "end": 8,
+        "name": "Food",
+        "text": "soup"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 7,
+              "end": 8,
+              "name": "Food",
+              "text": "soup"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "name": "Constituent_parts",
+              "text": "pumpkin"
+            }
+          ],
+          "score": 18.68447111660481,
+          "rank": 0
+        }
+      ]
+    }
+  ]
+}

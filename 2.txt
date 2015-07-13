@@ -1,0 +1,71 @@
+{
+  "tokens": [
+    "Alright",
+    ".",
+    "How",
+    "do",
+    "I",
+    "make",
+    "the",
+    "sandwich",
+    "?"
+  ],
+  "frames": [
+    {
+      "target": {
+        "start": 3,
+        "end": 4,
+        "name": "Intentionally_act",
+        "text": "do"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 4,
+              "end": 5,
+              "name": "Act",
+              "text": "I"
+            },
+            {
+              "start": 0,
+              "end": 2,
+              "name": "Agent",
+              "text": "Alright ."
+            }
+          ],
+          "score": 51.67520018746101,
+          "rank": 0
+        }
+      ]
+    },
+    {
+      "target": {
+        "start": 5,
+        "end": 6,
+        "name": "Manufacturing",
+        "text": "make"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 6,
+              "end": 8,
+              "name": "Product",
+              "text": "the sandwich"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "name": "Manufacturer",
+              "text": "I"
+            }
+          ],
+          "score": 78.47928558363785,
+          "rank": 0
+        }
+      ]
+    }
+  ]
+}

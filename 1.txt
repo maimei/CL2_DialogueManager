@@ -1,0 +1,93 @@
+{
+  "tokens": [
+    "What",
+    "ingredients",
+    "do",
+    "I",
+    "need",
+    "for",
+    "the",
+    "sandwich",
+    "?"
+  ],
+  "frames": [
+    {
+      "target": {
+        "start": 1,
+        "end": 2,
+        "name": "Ingredients",
+        "text": "ingredients"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 1,
+              "end": 2,
+              "name": "Material",
+              "text": "ingredients"
+            }
+          ],
+          "score": 29.296897510284005,
+          "rank": 0
+        }
+      ]
+    },
+    {
+      "target": {
+        "start": 2,
+        "end": 3,
+        "name": "Intentionally_act",
+        "text": "do"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 3,
+              "end": 4,
+              "name": "Act",
+              "text": "I"
+            },
+            {
+              "start": 0,
+              "end": 2,
+              "name": "Agent",
+              "text": "What ingredients"
+            }
+          ],
+          "score": 64.91566561670584,
+          "rank": 0
+        }
+      ]
+    },
+    {
+      "target": {
+        "start": 4,
+        "end": 5,
+        "name": "Needing",
+        "text": "need"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 5,
+              "end": 8,
+              "name": "Requirement",
+              "text": "for the sandwich"
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "name": "Cognizer",
+              "text": "I"
+            }
+          ],
+          "score": 41.766024883858066,
+          "rank": 0
+        }
+      ]
+    }
+  ]
+}

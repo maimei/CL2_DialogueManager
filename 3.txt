@@ -1,0 +1,56 @@
+{
+  "tokens": [
+    "What",
+    "is",
+    "the",
+    "next",
+    "step",
+    "?"
+  ],
+  "frames": [
+    {
+      "target": {
+        "start": 3,
+        "end": 4,
+        "name": "Relative_time",
+        "text": "next"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 4,
+              "end": 5,
+              "name": "Focal_occasion",
+              "text": "step"
+            }
+          ],
+          "score": 18.786821420181347,
+          "rank": 0
+        }
+      ]
+    },
+    {
+      "target": {
+        "start": 4,
+        "end": 5,
+        "name": "Intentionally_act",
+        "text": "step"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 3,
+              "end": 4,
+              "name": "Time",
+              "text": "next"
+            }
+          ],
+          "score": 54.90687978004622,
+          "rank": 0
+        }
+      ]
+    }
+  ]
+}

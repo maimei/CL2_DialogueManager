@@ -1,0 +1,49 @@
+{
+  "tokens": [
+    "Could",
+    "you",
+    "please",
+    "repeat",
+    "that",
+    "?"
+  ],
+  "frames": [
+    {
+      "target": {
+        "start": 2,
+        "end": 3,
+        "name": "Stimulus_focus",
+        "text": "please"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [
+            {
+              "start": 1,
+              "end": 2,
+              "name": "Stimulus",
+              "text": "you"
+            }
+          ],
+          "score": 28.06648033042434,
+          "rank": 0
+        }
+      ]
+    },
+    {
+      "target": {
+        "start": 3,
+        "end": 4,
+        "name": "Frequency",
+        "text": "repeat"
+      },
+      "annotationSets": [
+        {
+          "frameElements": [],
+          "score": 25.116591530498287,
+          "rank": 0
+        }
+      ]
+    }
+  ]
+}
