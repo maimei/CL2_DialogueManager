@@ -33,9 +33,9 @@ public class Manager {
 		knowledge = new Knowledge();
 		step = new DiscoursStep();
 		sim = new Simulation(this);
-		useSocket = false;
+		useSocket = true;
 		if(useSocket) 
-			clclient = new CLClientIf("134.102.112.125", CLClientIf.PORT_DM);
+			clclient = new CLClientIf("134.102.6.174", CLClientIf.PORT_POST, CLClientIf.PORT_DM);
 	}
 	
 	public static void main(String[] args) {
@@ -339,7 +339,7 @@ public class Manager {
 		history.extendDiscoursHistory(step); 
 		step = new DiscoursStep();
 		if(useSocket)
-			clclient.getPrintStream().println(response);
+			clclient.write(response);
 		System.out.println(response);
 	}
 	
@@ -396,7 +396,7 @@ public class Manager {
 		history.setInstructionIndex(history.getInstructionIndex()+1);
 		step = new DiscoursStep();
 		if(useSocket)
-			clclient.getPrintStream().println(response);
+			clclient.write(response);
 		System.out.println(response);
 	}
 	
@@ -413,7 +413,7 @@ public class Manager {
 		history.setInstructionIndex(history.getInstructionIndex()+1);
 		step = new DiscoursStep();
 		if(useSocket)
-			clclient.getPrintStream().println(response);
+			clclient.write(response);
 		System.out.println(response);
 		//TODO: repeat other than only the last instruction
 			
@@ -437,9 +437,9 @@ public class Manager {
 						+ "," + history.getNumOfErrs();
 		history.extendDiscoursHistory(step); 
 		step = new DiscoursStep();
-		if(useSocket)
-			clclient.getPrintStream().println(response);
 		System.out.println(response);
+		if(useSocket)
+			clclient.write(response);
 	}
 	
 	private void createRespEnd(){
@@ -451,7 +451,7 @@ public class Manager {
 		history.extendDiscoursHistory(step); 
 		step = new DiscoursStep();
 		if(useSocket)
-			clclient.getPrintStream().println(response);
+			clclient.write(response);
 		System.out.println(response);
 		//TODO: ask if another recipe shall be prepared
 	}
